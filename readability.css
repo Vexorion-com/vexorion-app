@@ -1,0 +1,256 @@
+/* Comfortable type sizes across the command center, including narrow layouts. */
+:root { font-size: 15px; --muted: #a3afbf; }
+body { line-height: 1.5; }
+h1 { font-size: 34px; }
+h2, .panel-head h2 { font-size: 18px; }
+h3 { font-size: 17px; }
+.sidebar { overflow-y: auto; }
+.sidebar-bottom { padding-top: 18px; }
+.brand-sub { font-size: 9px; letter-spacing: 1.5px; }
+.workspace-switch strong { font-size: 13px; }
+.workspace-switch small { font-size: 12px; }
+.nav-label { font-size: 10px; }
+.nav-item { font-size: 14px; padding-top: 10px; padding-bottom: 10px; }
+.nav-count { font-size: 11px; }
+.nav-new { font-size: 10px; }
+.connection-top { font-size: 12px; flex-wrap: wrap; }
+.connection-card p, .connection-card a { font-size: 12px; }
+.demo-label { font-size: 9px; }
+.sidebar-profile strong { font-size: 13px; }
+.sidebar-profile small { font-size: 11px; }
+.sidebar-profile > .icon { width: 13px; }
+.breadcrumb { font-size: 13px; }
+.search-trigger, .environment { font-size: 12px; }
+.page-heading p { font-size: 14px; }
+.btn, .heading-actions .btn { font-size: 13px; min-height: 39px; }
+.btn .icon { width: 16px; height: 16px; }
+.text-link { font-size: 12px; }
+.metric { min-height: 149px; padding: 18px; }
+.metric-top { font-size: 13px; }
+.metric-value { font-size: 38px; }
+.metric-value small { font-size: 15px; }
+.metric-footer { font-size: 11px; flex-wrap: wrap; max-width: 80%; line-height: 1.6; }
+.metric-spark { width: 60px; bottom: 39px; }
+.metric-top > .icon:last-child { width: 12px; }
+.panel-head p { font-size: 12px; }
+.segmented button { font-size: 11px; }
+.posture-body { min-height: 215px; }
+.ring-number { font-size: 50px; }
+.ring-number small { font-size: 14px; }
+.ring-label { font-size: 11px; }
+.ring-sub { font-size: 10px; }
+.chart-legend, .chart-growth { font-size: 11px; }
+.chart-labels { font-size: 10px; }
+.posture-caption { font-size: 11px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; }
+.posture-caption .text-link { font-size: 11px; }
+.coverage-list { gap: 19px; padding-top: 20px; padding-bottom: 15px; }
+.coverage-name { font-size: 12px; }
+.coverage-meta small { font-size: 11px; }
+.coverage-bottom { font-size: 10px; }
+.coverage-bottom .text-link { font-size: 11px; }
+.count-pill { font-size: 11px; }
+.tab { font-size: 12px; padding-top: 14px; padding-bottom: 14px; }
+.tab small { font-size: 10px; }
+.table-wrap { position: relative; max-width: 100%; }
+th { font-size: 12px; padding: 13px 16px; }
+td { font-size: 12px; padding: 16px; }
+.finding-title { font-size: 14px; line-height: 1.55; white-space: normal; min-width: 210px; max-width: 350px; }
+.finding-sub { font-size: 11px; }
+.severity { font-size: 11px; padding: 5px 8px; }
+.status { font-size: 12px; }
+.assignee { font-size: 12px; }
+.xp-tag { font-size: 12px; }
+.table-foot, .table-foot > .text-link { font-size: 11px; }
+.pagination .btn { font-size: 11px; min-height: 31px; }
+.level-card .eyebrow { font-size: 10px; }
+.level-card h2 { font-size: 22px; max-width: 75%; line-height: 1.4; }
+.level-card p { font-size: 12px; max-width: 80%; }
+.level-emblem { top: 45px; right: 16px; width: 44px; height: 51px; }
+.level-progress-label { font-size: 10px; }
+.level-card .text-link { font-size: 12px; }
+.leader-row, .leader-name { font-size: 12px; }
+.leader-row .xp-tag { font-size: 12px; }
+.leader-name small { font-size: 10px; }
+.leader-list { padding-bottom: 20px; gap: 18px; }
+.activity-item strong { font-size: 12px; }
+.activity-item small { font-size: 10px; line-height: 1.7; }
+.activity-list { gap: 18px; }
+.avatar { font-size: 11px; }
+.avatar.small { width: 29px; height: 29px; font-size: 10px; }
+.domain-card h3 { font-size: 17px; }
+.domain-card p { font-size: 13px; min-height: 67px; }
+.domain-card-stats, .domain-card-bottom { font-size: 12px; }
+.coverage-intro p { font-size: 13px; }
+.coverage-intro strong { font-size: 14px; }
+.tag { font-size: 11px; }
+.input-wrap input, .filters select { font-size: 13px; }
+.input-wrap { padding: 11px 12px; }
+.filters select { padding-top: 10px; padding-bottom: 10px; }
+.note { font-size: 12px; }
+.mono { font-size: 12px; }
+.member-card h3 { font-size: 17px; }
+.member-card .role { font-size: 12px; min-height: 40px; }
+.member-level { font-size: 12px; }
+.member-card .goal-caption { font-size: 11px; }
+.member-stats { font-size: 12px; }
+.achievement strong { font-size: 13px; }
+.achievement small { font-size: 11px; }
+.rule-row { font-size: 13px; }
+.week-goal p { font-size: 13px; }
+.field, .setting-toggle { font-size: 14px; }
+.field small, .setting-toggle small { font-size: 12px; }
+input, select { font-size: 14px; padding-top: 11px; padding-bottom: 11px; }
+.status-box strong { font-size: 14px; }
+.modal { width: 610px; }
+.modal-head h2 { font-size: 22px; }
+.modal-head p { font-size: 13px; }
+.drawer { width: 610px; }
+.detail-id { font-size: 12px; }
+.detail-title { font-size: 25px !important; }
+.detail-section h3 { font-size: 15px; }
+.detail-section p, .remediation-box p { font-size: 14px; line-height: 1.8; }
+.detail-section .note { font-size: 12px; }
+.detail-resource { font-size: 13px; }
+.verify-check { font-size: 13px; }
+.xp-banner { font-size: 13px; }
+.xp-banner small { font-size: 12px; }
+.form-error { font-size: 13px; }
+.scope-choice { font-size: 12px; padding: 11px; }
+.scope-summary { font-size: 12px; }
+.select-all { font-size: 12px; }
+.scan-title { font-size: 19px; }
+.scan-detail, .scan-check { font-size: 13px; }
+.report-summary small { font-size: 12px; }
+.search-result strong { font-size: 13px; }
+.search-result small, .search-section { font-size: 11px; }
+.member-choice strong { font-size: 14px; }
+.member-choice small { font-size: 12px; }
+.framework-card p { font-size: 13px; }
+.resource-risk, .status-indicator { font-size: 12px; }
+.report-link, .about-list li { font-size: 13px; }
+.footer { font-size: 10px; }
+.footer > span { flex-wrap: wrap; }
+.dashboard-main, .dashboard-bottom, .team-grid, .team-lower, .settings-grid { min-width: 0; }
+.dashboard-main > *, .dashboard-bottom > *, .team-lower > * { min-width: 0; }
+
+@media (max-width: 1200px) {
+  .metric-top { font-size: 12px; }
+  .metric-footer { font-size: 10px; max-width: 100%; }
+  .metric-spark { width: 44px; bottom: 46px; }
+  .metric-value { font-size: 34px; }
+  .dashboard-main { grid-template-columns: 1fr; }
+  .posture-body { grid-template-columns: 195px 1fr; gap: 25px; padding-left: 20px; }
+  .coverage-list { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 30px; }
+  .nav-item { font-size: 13px; }
+  .workspace-switch strong { font-size: 11px; }
+  .workspace-switch small { font-size: 11px; }
+  .sidebar-profile strong { font-size: 12px; }
+  .sidebar-profile small { font-size: 10px; }
+  .dashboard-bottom { grid-template-columns: 1fr 1fr; }
+  .level-card p { max-width: 80%; }
+  .footer { font-size: 10px; }
+}
+@media (max-width: 960px) {
+  .metric-top { font-size: 11px; }
+  .metric-value { font-size: 31px; }
+  .metric-value small { font-size: 12px; }
+  .metric-footer { font-size: 10px; }
+  .metric-spark { display: none; }
+  .page-heading p { font-size: 13px; }
+  h1 { font-size: 30px; }
+  .heading-actions .btn { font-size: 12px; }
+  .breadcrumb { font-size: 12px; }
+  .environment { font-size: 11px; }
+  .coverage-name { font-size: 12px; }
+  .panel-actions { gap: 12px; }
+  .panel-actions .btn { font-size: 12px; }
+  .team-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 700px) {
+  h1 { font-size: 28px; }
+  h2, .panel-head h2 { font-size: 17px; }
+  .page-heading p { font-size: 13px; max-width: 260px; }
+  .heading-actions .btn { font-size: 12px; min-height: 37px; padding: 8px 11px; }
+  .nav-item { font-size: 14px; }
+  .workspace-switch strong { font-size: 13px; }
+  .brand-sub { font-size: 9px; }
+  .metric { padding: 17px; min-height: 145px; }
+  .metric-top { font-size: 13px; }
+  .metric-value { font-size: 36px; }
+  .metric-value small { font-size: 13px; }
+  .metric-footer { font-size: 11px; line-height: 1.7; }
+  .metric-spark { display: none; }
+  .panel-head { align-items: flex-start; }
+  .panel-head p { font-size: 12px; }
+  .posture-body { grid-template-columns: 155px 1fr; gap: 14px; padding: 20px 18px 20px 10px; min-height: 195px; }
+  .score-ring, .score-ring > svg { width: 155px; height: 155px; }
+  .ring-number { font-size: 42px; }
+  .ring-label { font-size: 10px; }
+  .ring-sub { font-size: 9px; }
+  .chart-legend, .chart-growth { font-size: 10px; }
+  .chart-labels { font-size: 9px; }
+  .posture-caption { gap: 9px; font-size: 11px; }
+  .posture-caption .text-link { font-size: 11px; }
+  .coverage-list { gap: 22px 20px; }
+  .coverage-name { font-size: 12px; }
+  .coverage-meta small { font-size: 11px; }
+  .coverage-bottom { font-size: 11px; gap: 12px; }
+  .coverage-bottom .text-link { font-size: 11px; }
+  .priority .panel-head { flex-wrap: wrap; gap: 14px; }
+  .panel-actions .btn { font-size: 12px; }
+  .text-link, .table-foot > .text-link { font-size: 12px; }
+  .tab { font-size: 12px; }
+  .table-foot { font-size: 11px; flex-wrap: wrap; }
+  .finding-title { font-size: 14px; }
+  .finding-sub { font-size: 11px; }
+  .severity { font-size: 11px; }
+  .status, .assignee { font-size: 12px; }
+  .dashboard-bottom { grid-template-columns: 1fr; }
+  .level-card p { max-width: 80%; font-size: 13px; }
+  .level-card .text-link { font-size: 12px; }
+  .level-emblem { width: 49px; height: 57px; right: 20px; }
+  .level-progress-label { font-size: 12px; margin-top: 22px; }
+  .leader-row, .leader-name, .leader-row .xp-tag { font-size: 13px; }
+  .activity-item strong { font-size: 13px; }
+  .activity-item small { font-size: 11px; }
+  .domain-card h3 { font-size: 18px; }
+  .domain-card p { font-size: 14px; min-height: 0; }
+  .coverage-intro p { font-size: 13px; }
+  .coverage-intro strong { font-size: 14px; }
+  .filters select, .input-wrap input { font-size: 13px; }
+  .member-card h3 { font-size: 15px; }
+  .member-card .role { font-size: 12px; min-height: 45px; }
+  .member-level { font-size: 11px; }
+  .member-card .goal-caption { font-size: 11px; }
+  .member-stats { font-size: 12px; }
+  .achievement strong { font-size: 12px; }
+  .achievement small { font-size: 11px; }
+  .drawer { width: 100%; }
+  .detail-title { font-size: 25px !important; }
+  .scope-choice { font-size: 12px; }
+  .scope-summary { font-size: 11px; gap: 10px; }
+  .report-summary small { font-size: 11px; }
+  .footer { font-size: 10px; align-items: flex-start; }
+  .environment { font-size: 11px; }
+}
+@media (max-width: 420px) {
+  .posture-body { grid-template-columns: 1fr; justify-items: center; gap: 20px; padding: 20px; }
+  .score-ring, .score-ring > svg { width: 175px; height: 175px; }
+  .ring-number { font-size: 48px; }
+  .chart-container { margin-bottom: 0; }
+  .chart-svg { height: 100px; }
+  .coverage-list { grid-template-columns: 1fr; gap: 20px; }
+  .coverage-bottom { flex-wrap: wrap; }
+  .metric { padding: 15px 12px; }
+  .metric-top { font-size: 12px; gap: 6px; }
+  .scope-grid { grid-template-columns: 1fr; }
+  .scope-summary { flex-wrap: wrap; }
+  .panel-actions { flex-wrap: wrap; }
+  .page-heading { flex-wrap: wrap; gap: 15px; }
+  .heading-actions { margin-top: 0; }
+  .team-grid { grid-template-columns: 1fr; }
+  .achievements { grid-template-columns: 1fr; }
+  .member-card .role { min-height: 0; }
+  .environment { padding: 7px; gap: 6px; }
+  .environment .muted { display: none; }
+}
